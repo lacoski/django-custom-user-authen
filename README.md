@@ -72,7 +72,8 @@ Lưu ý:
 ## Bước 3: Tạo lớp User Manager 
 > Lớp này cho phép tùy chỉnh các phương thức Create, save, delete user mặc định
 
-- Chỉnh sửa file:
+- Chỉnh sửa file: `authen.models.py`
+
 ``` python 
 class UserManager(BaseUserManager):
     def create_user(self, email, password=None):
